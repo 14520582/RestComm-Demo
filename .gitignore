@@ -1,0 +1,24 @@
+# Build generated files #
+#########################
+target/
+node_modules/
+
+# IDE generated files #
+#######################
+.classpath
+.project
+.settings
+.idea
+.metadata
+*.iml
+*.ipr
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
