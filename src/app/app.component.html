@@ -1,0 +1,29 @@
+<!-- <div class="main_page" *ngIf="(UA.status | async) as status"> -->
+<div class="main_page">
+    <mat-toolbar color="primary">
+        <span>
+            <mat-icon>menu</mat-icon>
+        </span>
+        <div class="title">RestComn WebRTC Demo
+            <div class="who" *ngIf="(connectionStatus | async) as connStatus">
+                user {{ connStatus.who }} connetcted
+            </div>
+        </div>
+
+        <button mat-icon-button [mat-menu-trigger-for]="menu">
+            <mat-icon>more_vert</mat-icon>
+        </button>
+    </mat-toolbar>
+
+    <mat-menu x-position="before" #menu="matMenu" class="navigationMenu">
+        <button mat-menu-item routerLink="phone">
+            <mat-icon>dialpad</mat-icon>Phone</button>
+        <button mat-menu-item routerLink="callslist">
+            <mat-icon>format_list_bulleted</mat-icon>Calls List</button>
+        <button mat-menu-item routerLink="config">
+            <mat-icon>build</mat-icon>Config</button>
+    </mat-menu>
+
+    <router-outlet></router-outlet>
+
+</div>

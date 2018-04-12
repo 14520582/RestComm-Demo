@@ -1,43 +1,40 @@
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-web-sdk.svg?type=shield)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-web-sdk?ref=badge_shield)
+# Telebot3000
 
-RestComm WebRTC SDK
-================
+Telebot3000 is a softphone:
 
-RestComm WebRTC SDK is a simple yet efficient high level, Twilio Compatible JavaScript WebRTC SDK for Web Developers to add Real Time Communications and IM Capabilities to any website. 
-
-RestComm WebRTC SDK allows you to create Real Time Video, Voice and Instant Messaging Web Applications that can connect together any WebRTC enabled Browser (Chrome, Firefox, ...), SIP enabled devices and legacy phones (Cell Phone, Desktop Phone) 
-
-Quick Start Guide
-========
-http://documentation.telestax.com/connect/sdks/restcomm-client-web-sdk-quick-start.html
-
-Documentation
-========
-Check the Documentation at http://restcomm.github.io/restcomm-web-sdk/doc
-
-Want to Contribute ? 
-========
-[See our Contributors Guide](https://github.com/Mobicents/RestComm/wiki/Contribute-to-RestComm)
-
-Issue Tracking and Roadmap
-========
-[Issue Tracker](https://github.com/Mobicents/restcomm-web-sdk/issues)
-
-Questions ?
-========
-Please ask your question on our [public forum](http://groups.google.com/group/restcomm)
-
-License
-========
-
-RestComm is lead by [TeleStax](http://www.telestax.com/), Inc. and developed collaboratively by a community of individual and enterprise contributors.
-
-RestComm is licensed under dual license policy. The default license is the Free Open Source GNU Affero GPL v3.0. Alternatively a commercial license can be obtained from Telestax ([contact form](https://www.restcomm.com/contact/))
-
-Acknowledgements
-========
-[See who has been contributing to RestComm](http://www.telestax.com/opensource/acknowledgments/)
+  - e2e test oriented
+  - RestComm based
+  - self awared!
 
 
-## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-web-sdk.svg?type=large)](https://app.fossa.io/projects/git%2Bhttps%3A%2F%2Fgithub.com%2FRestComm%2Frestcomm-web-sdk?ref=badge_large)
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.4.5.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+
+## Running unit tests
+
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+
+## Running end-to-end tests
+
+Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+
+
+
+## Icon
+
+Icons made by [Freepik](http://www.freepik.com) from [www.flaticon.com](https://www.flaticon.com) is licensed by [CC 3.0 BY](http://creativecommons.org/licenses/by/3.0/).
+
+### License
+
+[EUPL v1.1](https://github.com/irontec/telebot3000/blob/master/LICENSE.txt)

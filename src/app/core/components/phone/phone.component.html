@@ -1,0 +1,22 @@
+<div class="container">
+    <div class="target">
+        <mat-form-field [hideRequiredMarker]="true">
+            <input matInput placeholder="" [formControl]="targetControl" required>
+        </mat-form-field>
+    </div>
+    <div class="pad">
+        <mat-grid-list cols="3" rowHeight="100px">
+            <ng-template ngFor [ngForOf]="buttons" let-button>
+                <mat-grid-tile>
+                    <button mat-fab color="red" (click)="buttonPressed(button)">{{ button }}</button>
+                </mat-grid-tile>
+            </ng-template>
+
+            <mat-grid-tile colspan="3">
+                <button class="caller" #callButton  mat-fab color="accent">
+                    <mat-icon>phone</mat-icon>
+                </button>
+            </mat-grid-tile>
+        </mat-grid-list>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+div.title {
+    display: inline-block;
+    text-align: center;
+
+    .who {
+        font-size:0.7em;
+        margin:0;
+        line-height: 1.5em;
+    }
+}
+.main_page {
+  margin: -16px;
+}
+.mat-icon {
+  vertical-align: middle;
+}
+
+
+.mat-toolbar.mat-primary{
+  background-color: #8dbd3f;
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12);
+}

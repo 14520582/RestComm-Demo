@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <base href="/">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <!-- Include adapter.js to handle WebRTC differences between browsers -->
+  <script type="text/javascript" src='assets/libs/adapter.js'></script>
+	<!-- Include the JAIN SIP lib -->
+	<script type="text/javascript" src='assets/libs/jain-sip.js'></script>
+	<!-- Include the low level WebRTComm lib that sits on top of JAIN SIP and provides WebRTC media and SIP signaling facilities  -->
+	<script type="text/javascript" src='assets/libs/WebRTComm.js'></script>
+	<!-- Include the high level Restcomm Web library that sits on top of WebRTComm.js and provides an easy to use, a Twilio compatible API -->
+	<script type="text/javascript" src='assets/libs/RestCommWebClient.js'></script>
+</head>
+<body>
+  <app-root></app-root>
+  <script>
+      // var parameters = {
+      //   'debug': true,
+      //   'username': '1007',
+      //   'password': '1234',
+      //   // If you want to register to a local Restcomm Connect instance running at localhost and you want to use unencrypted signaling you need to provide those as well and use a provisioned client as a name (like bob or alice)
+      //   'registrar': 'wss://vietvan.net:7443',
+      //   'domain': 'vietvan.net',
+      // };
+      // RestCommClient.Device.setup(parameters);
+  </script>
+</body>
+</html>
